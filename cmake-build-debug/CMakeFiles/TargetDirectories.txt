@@ -1,0 +1,3 @@
+C:/Users/Iosif/CLionProjects/Distance_detection_OpenCV/cmake-build-debug/CMakeFiles/Image_Processing_Template.dir
+C:/Users/Iosif/CLionProjects/Distance_detection_OpenCV/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Iosif/CLionProjects/Distance_detection_OpenCV/cmake-build-debug/CMakeFiles/rebuild_cache.dir

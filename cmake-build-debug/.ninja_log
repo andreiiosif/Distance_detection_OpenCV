@@ -1,0 +1,5 @@
+# ninja log v5
+1	963	6956879100169570	CMakeFiles/Image_Processing_Template.dir/main.cpp.obj	b61adf1df40fd0e6
+645	748	6956883394902907	Image_Processing_Template.exe	4841058895b2f0db
+1	67	6956885139237876	build.ninja	c565b17a99eba
+0	645	6956883394097820	CMakeFiles/Image_Processing_Template.dir/DisplayVideo.cpp.obj	c2570f12e0f3fcb
