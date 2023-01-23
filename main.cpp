@@ -1,12 +1,13 @@
 #pragma ide diagnostic ignored "EndlessLoop"
 
 #include "DisplayVideo.h"
+#include "ProcessImage.h"
 
 int main()
 {
-    // Open a video and play on a window
-    DisplayVideo displayVideo("Video/impact.mp4");
-    displayVideo.run();
+    // Read video from file
+    auto videoCapture = DisplayVideo("Video/impact.mp4");
+    videoCapture.run();
 
     return 0;
 }
