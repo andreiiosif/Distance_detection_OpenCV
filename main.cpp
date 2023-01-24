@@ -1,7 +1,6 @@
 #pragma ide diagnostic ignored "EndlessLoop"
 
 #include "DisplayVideo.h"
-#include "ProcessImage.h"
 
 int main()
 {

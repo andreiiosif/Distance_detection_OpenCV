@@ -77,5 +77,15 @@ std::vector < cv::Rect > ProcessImage::getRectangles() {
     std::copy_if(rectangles.begin(), rectangles.end(), std::back_inserter(filteredRectangles),
                  [](const auto &a) { return a.height < a.width; });
 
+    // Keep the biggest 5 rectangles
+    std::sort(filteredRectangles.begin(), filteredRectangles.end(), [](const auto &a, const auto &b) {
+       return a.area() < b.area();
+    });
+
+    if(filteredRectangles.size() > 5) {
+        std::vector < cv::Rect >  bestFiltered(filteredRectangles.end() - 5, filteredRectangles.end());
+        return bestFiltered;
+    }
+
     return filteredRectangles;
 }

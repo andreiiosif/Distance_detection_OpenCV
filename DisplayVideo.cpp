@@ -38,17 +38,17 @@ void DisplayVideo::run() {
         // Get starting timepoint
         auto start = std::chrono::high_resolution_clock::now();
 
-        auto ROI = cv::Rect(220, 239, 400, 240);
+        auto ROI = cv::Rect(270, 239, 300, 240);
         auto imageToProcess = frame(ROI);
 
         auto processImage = ProcessImage(imageToProcess);
         auto rectangles = processImage.getRectangles();
-        auto processedImage = Utilities::drawRectangles(frame, rectangles, cv::Point(220, 239));
+        auto processedImage = Utilities::drawRectangles(frame, rectangles, cv::Point(270, 239));
 
         auto stop = std::chrono::high_resolution_clock::now();
         auto duration = duration_cast<std::chrono::milliseconds>(stop - start);
 
-        std::cout << "Execution time of frame: " << duration.count() << "ms.\n";
+        std::cout << "Execution time of frame processing: " << duration.count() << "ms.\n";
 
         cv::imshow("Video", processedImage);
         cv::waitKey(33);
