@@ -8,7 +8,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(Image_Processing_Template main.cpp DisplayVideo.cpp DisplayVideo.h ProcessImage.cpp ProcessImage.h Utilities.cpp Utilities.h) # Change "match test"
+add_executable(Image_Processing_Template main.cpp DisplayVideo/DisplayVideo.cpp DisplayVideo/DisplayVideo.h Image/ProcessImage.cpp Image/ProcessImage.h Utilities/Utilities.cpp Utilities/Utilities.h) # Change "match test"
 
 set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
 
