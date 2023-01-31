@@ -57,27 +57,27 @@ build CMakeFiles\Image_Processing_Template.dir\main.cpp.obj: CXX_COMPILER__Image
   TARGET_COMPILE_PDB = CMakeFiles\Image_Processing_Template.dir\
   TARGET_PDB = Image_Processing_Template.pdb
 
-build CMakeFiles\Image_Processing_Template.dir\DisplayVideo.cpp.obj: CXX_COMPILER__Image_Processing_Template_Debug C$:\Users\Iosif\CLionProjects\Distance_detection_OpenCV\DisplayVideo.cpp || cmake_object_order_depends_target_Image_Processing_Template
+build CMakeFiles\Image_Processing_Template.dir\DisplayVideo\DisplayVideo.cpp.obj: CXX_COMPILER__Image_Processing_Template_Debug C$:\Users\Iosif\CLionProjects\Distance_detection_OpenCV\DisplayVideo\DisplayVideo.cpp || cmake_object_order_depends_target_Image_Processing_Template
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   INCLUDES = -external:IC:\tools\opencv\build\include -external:W0
   OBJECT_DIR = CMakeFiles\Image_Processing_Template.dir
-  OBJECT_FILE_DIR = CMakeFiles\Image_Processing_Template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Image_Processing_Template.dir\DisplayVideo
   TARGET_COMPILE_PDB = CMakeFiles\Image_Processing_Template.dir\
   TARGET_PDB = Image_Processing_Template.pdb
 
-build CMakeFiles\Image_Processing_Template.dir\ProcessImage.cpp.obj: CXX_COMPILER__Image_Processing_Template_Debug C$:\Users\Iosif\CLionProjects\Distance_detection_OpenCV\ProcessImage.cpp || cmake_object_order_depends_target_Image_Processing_Template
+build CMakeFiles\Image_Processing_Template.dir\Image\ProcessImage.cpp.obj: CXX_COMPILER__Image_Processing_Template_Debug C$:\Users\Iosif\CLionProjects\Distance_detection_OpenCV\Image\ProcessImage.cpp || cmake_object_order_depends_target_Image_Processing_Template
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   INCLUDES = -external:IC:\tools\opencv\build\include -external:W0
   OBJECT_DIR = CMakeFiles\Image_Processing_Template.dir
-  OBJECT_FILE_DIR = CMakeFiles\Image_Processing_Template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Image_Processing_Template.dir\Image
   TARGET_COMPILE_PDB = CMakeFiles\Image_Processing_Template.dir\
   TARGET_PDB = Image_Processing_Template.pdb
 
-build CMakeFiles\Image_Processing_Template.dir\Utilities.cpp.obj: CXX_COMPILER__Image_Processing_Template_Debug C$:\Users\Iosif\CLionProjects\Distance_detection_OpenCV\Utilities.cpp || cmake_object_order_depends_target_Image_Processing_Template
+build CMakeFiles\Image_Processing_Template.dir\Utilities\Utilities.cpp.obj: CXX_COMPILER__Image_Processing_Template_Debug C$:\Users\Iosif\CLionProjects\Distance_detection_OpenCV\Utilities\Utilities.cpp || cmake_object_order_depends_target_Image_Processing_Template
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
   INCLUDES = -external:IC:\tools\opencv\build\include -external:W0
   OBJECT_DIR = CMakeFiles\Image_Processing_Template.dir
-  OBJECT_FILE_DIR = CMakeFiles\Image_Processing_Template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Image_Processing_Template.dir\Utilities
   TARGET_COMPILE_PDB = CMakeFiles\Image_Processing_Template.dir\
   TARGET_PDB = Image_Processing_Template.pdb
 
@@ -89,7 +89,7 @@ build CMakeFiles\Image_Processing_Template.dir\Utilities.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Image_Processing_Template.exe
 
-build Image_Processing_Template.exe: CXX_EXECUTABLE_LINKER__Image_Processing_Template_Debug CMakeFiles\Image_Processing_Template.dir\main.cpp.obj CMakeFiles\Image_Processing_Template.dir\DisplayVideo.cpp.obj CMakeFiles\Image_Processing_Template.dir\ProcessImage.cpp.obj CMakeFiles\Image_Processing_Template.dir\Utilities.cpp.obj | C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib
+build Image_Processing_Template.exe: CXX_EXECUTABLE_LINKER__Image_Processing_Template_Debug CMakeFiles\Image_Processing_Template.dir\main.cpp.obj CMakeFiles\Image_Processing_Template.dir\DisplayVideo\DisplayVideo.cpp.obj CMakeFiles\Image_Processing_Template.dir\Image\ProcessImage.cpp.obj CMakeFiles\Image_Processing_Template.dir\Utilities\Utilities.cpp.obj | C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib C$:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = C:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib  C:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib  C:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib  C:\tools\opencv\build\x64\vc15\lib\opencv_world460d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
